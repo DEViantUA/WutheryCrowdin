@@ -3,4 +3,6 @@ files:
     translation: /i18n/messages/%two_letters_code%.json
   - source: /i18n/TextMap/MultiText_uk.json
     translation: '%original_path%'
-    multilingual: 1
+    languages:
+      include:
+        - uk
