@@ -2,4 +2,19 @@ files:
   - source: /i18n/messages/en.json
     translation: /i18n/messages/%two_letters_code%.json
   - source: /i18n/TextMap/MultiText_uk.json
-    translation: '%original_path%'
+     translation: /i18n/TextMap/%original_file_name%
+     languages:
+        exclude:
+          - zh-CN   # Chinese Simplified
+          - zh-TW   # Chinese Traditional
+          - en      # English
+          - fr      # French
+          - de      # German
+          - id      # Indonesian
+          - ja      # Japanese
+          - ko      # Korean
+          - pt      # Portuguese
+          - es      # Spanish
+          - th      # Thai
+          - vi      # Vietnamese
+  
