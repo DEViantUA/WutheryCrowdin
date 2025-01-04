@@ -5,16 +5,15 @@ files:
      translation: /i18n/TextMap/%original_file_name%
      languages:
         exclude:
-          - zh-CN   # Chinese Simplified
-          - zh-TW   # Chinese Traditional
-          - en      # English
-          - fr      # French
-          - de      # German
-          - id      # Indonesian
-          - ja      # Japanese
-          - ko      # Korean
-          - pt      # Portuguese
-          - es      # Spanish
-          - th      # Thai
-          - vi      # Vietnamese
-  
+          - zh-CN
+          - zh-TW
+          - en
+          - fr
+          - de
+          - id
+          - ja
+          - ko
+          - pt
+          - es
+          - th
+          - vi
