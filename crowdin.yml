@@ -3,8 +3,7 @@ files:
     translation: /i18n/messages/%two_letters_code%.json
   - source: /i18n/TextMap/MultiText_uk.json
      translation: /i18n/TextMap/%original_file_name%
-     languages:
-        exclude:
+     excluded_target_languages:
           - zh-CN
           - zh-TW
           - en
