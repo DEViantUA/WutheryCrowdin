@@ -2,4 +2,17 @@ files:
   - source: /i18n/messages/en.json
     translation: /i18n/messages/%two_letters_code%.json
   - source: /i18n/TextMap/MultiText_uk.json
-     translation: /i18n/TextMap/%original_file_name%
+    translation: '%original_path%'
+    excluded_target_languages:
+    - zh-CN
+    - zh-TW
+    - en
+    - fr
+    - de
+    - id
+    - ja
+    - ko
+    - pt
+    - es
+    - th
+    - vi
